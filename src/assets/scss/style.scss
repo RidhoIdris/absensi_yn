@@ -1,0 +1,92 @@
+/**======================================================================
+=========================================================================
+Template Name: Datta Able Free Admin Template
+Author: Codedthemes
+supports: https://codedthemes.support-hub.io/
+File: style.css
+=========================================================================
+=========================================================================
+  == Table of Contents==
+	- Generic classes
+		-	Margin, Padding, Font class, text align, position, floating, overflow, background class, text color, display class, boarder class
+	- Theme Elements
+		-	Accordion, Button, tabs, typography, buttons, box shadow, Lable & Badges, Alert, Pagination, Breadcumb, Cards, Collapse,
+        -   Carousel, Grid, Progress, Model, tooltip, popover, Datepicker, Gridstack, lightbox, notification, Nestable, pnotify, rating,
+        -   Rangeslider, Slider, Syntax Highlighter, Tour, Treeview, Toolbar, Session Timeout, Session idle Timeout, offline, Animation
+    - Forms
+        -   Forms Elements, Advance Form Control, Validation, Masking, Wizard, Picker, Select
+	- Pages
+		-   Chat, authentication, Maintenance, Maps, Landingpage messages, task, Todo, Notes, Charts, Icons, Gallery, Editors,
+        -   Invoice, Full Calender, File Upload,
+=================================================================================
+=================================================================================== */
+@import "~bootstrap/dist/css/bootstrap";
+// General theme contents
+@import "partials/variables";
+@import "partials/general";
+@import "partials/generic";
+@import "partials/mixins/function";
+
+// important Element
+@import "partials/menu/menu-lite";
+@import "partials/widget/widget";
+
+// Theme Element
+@import "partials/theme-elements/form";
+@import "partials/theme-elements/radiobox-checkbox";
+@import "partials/theme-elements/labels-badges";
+@import "partials/theme-elements/data-tables";
+@import "partials/theme-elements/authentication";
+@import "partials/theme-elements/button";
+@import "partials/theme-elements/alert";
+@import "partials/theme-elements/breadcrumb-pagination";
+@import "partials/theme-elements/progress";
+@import "partials/theme-elements/tooltip";
+@import "partials/theme-elements/popover";
+@import "partials/theme-elements/nav";
+@import "partials/theme-elements/modal";
+
+// Other
+@import "partials/other/chat";
+@import "partials/other/prism";
+@import "partials/other/Switches";
+
+@import "partials/other/chart";
+@import "partials/other/icon-lauouts";
+
+@import "partials/third-party/third-party";
+
+.ReactTable .-pagination .-btn{
+  background: cornflowerblue !important;
+  color: white !important;
+  font-size:120% !important;
+}
+.ReactTable .-pagination .-btn:hover{
+  background: white !important;
+  color: cornflowerblue !important;
+  border-color : cornflowerblue !important;
+  border : 1px solid !important;
+  font-weight: bold;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc{
+  box-shadow: inset 0 3px 0 0 #007bff !important;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc{
+  box-shadow: inset 0 -3px 0 0 #007bff !important;
+}
+
+.custom-dialog {
+  width:90% !important;
+  max-width: 90% !important;
+
+}
+
+.invalid{
+  border-color: #dc3545;
+  padding-right: calc(1.5em + .75rem);
+  // background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e);
+  // background-repeat: no-repeat;
+  // background-position: right calc(.375em + .1875rem) center;
+  // background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
