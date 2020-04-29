@@ -31,7 +31,25 @@ export default {
                             title: 'Users',
                             type: 'item',
                             url: '/master/users',
-                        }
+                        },
+                        {
+                            id: 'department',
+                            title: 'Department',
+                            type: 'item',
+                            url: '/master/department',
+                        },
+                        {
+                            id: 'position',
+                            title: 'Position',
+                            type: 'item',
+                            url: '/master/position',
+                        },
+                        {
+                            id: 'schedule',
+                            title: 'Schedule',
+                            type: 'item',
+                            url: '/master/schedule',
+                        },
                     ]
                 }
             ]
