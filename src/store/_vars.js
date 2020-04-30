@@ -1,7 +1,7 @@
 class Vars {
     constructor() {
-        this.base_api_url = 'http://127.0.0.1:8000/api/';
-        this.base_url = 'http://127.0.0.1:3000/';
+        this.base_api_url = 'https://siabsensiyey.000webhostapp.com/public/api';
+        this.base_url = 'http://localhost:3000/';
         this.app_name = 'Absensi';
     }
 }

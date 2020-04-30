@@ -50,6 +50,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "react-to-print": "^2.6.3"
   }
 }

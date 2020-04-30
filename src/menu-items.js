@@ -50,6 +50,12 @@ export default {
                             type: 'item',
                             url: '/master/schedule',
                         },
+                        {
+                            id: 'location',
+                            title: 'Attendance Location',
+                            type: 'item',
+                            url: '/master/location',
+                        },
                     ]
                 }
             ]
